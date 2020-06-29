@@ -1,21 +1,15 @@
 # Homematic-XML-RPC
- Homematic-XML-RPC API
+# Homematic-XML-RPC API
  
- Some helpfull links:
+# Some helpfull links:
  
- https://www.eq-3.de/Downloads/eq3/download%20bereich/hm_web_ui_doku/HM-Script_4-Datenpunkte.pdf
- https://www.eq-3.de/Downloads/eq3/download%20bereich/hm_web_ui_doku/HmIP_Device_Documentation.pdf
+# https://www.eq-3.de/Downloads/eq3/download%20bereich/hm_web_ui_doku/HM-Script_4-Datenpunkte.pdf
+# https://www.eq-3.de/Downloads/eq3/download%20bereich/hm_web_ui_doku/HmIP_Device_Documentation.pdf
  
- How to use:
- 
- /*
-Homematic Api example
-*/
+# How to use:
 
-public class Main implements HomematicListener.valueChangeListener, HomematicListener.deviceListener{
-    public static void main(String[] args) {
-        new Main();
-    }
+
+# implements HomematicListener.valueChangeListener, HomematicListener.deviceListener
 
     public Main(){
         new HomematicServer(12345).start();
@@ -105,4 +99,3 @@ public class Main implements HomematicListener.valueChangeListener, HomematicLis
         //with authentication
         return new HomematicClient().getValue(ip, port, device, valueKey, user, pwd);
     }
-}
