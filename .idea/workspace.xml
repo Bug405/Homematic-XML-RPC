@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HomematicAPI:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08e8187e-bfeb-4eb2-83fa-5b80144dc79d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cNeJFM40fTYrdw8Eleo3lRpwPm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homematic" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08e8187e-bfeb-4eb2-83fa-5b80144dc79d" name="Default Changelist" comment="" />
+      <created>1590373404878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590373404878</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="194" key="FileChooserDialogImpl" timestamp="1593439538460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="465" y="163" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1592438202962" />
+    <state x="653" y="194" key="FileChooserDialogImpl/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1593439538460" />
+    <state x="782" y="436" key="Github.CreateGistDialog" timestamp="1593439744437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="782" y="436" key="Github.CreateGistDialog/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1593439744437" />
+    <state x="261" y="27" key="SettingsEditor" timestamp="1593442155119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="186" y="23" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1590448355657" />
+    <state x="261" y="27" key="SettingsEditor/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1593442155119" />
+    <state x="380" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1590447016109">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="380" y="260" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1590447016109" />
+    <state x="109" y="132" key="new project wizard" timestamp="1590448433632">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="109" y="132" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1590448433632" />
+  </component>
+</project>
