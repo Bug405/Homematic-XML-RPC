@@ -19,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cNeJFM40fTYrdw8Eleo3lRpwPm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homematic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -47,11 +50,12 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="194" key="FileChooserDialogImpl" timestamp="1593439538460">
+    <state x="653" y="194" key="FileChooserDialogImpl" timestamp="1593592834125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="163" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1592438202962" />
     <state x="653" y="194" key="FileChooserDialogImpl/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1593439538460" />
+    <state x="653" y="194" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593592834125" />
     <state x="782" y="436" key="Github.CreateGistDialog" timestamp="1593439744437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -65,9 +69,10 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="380" y="260" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1590447016109" />
-    <state x="109" y="132" key="new project wizard" timestamp="1590448433632">
-      <screen x="0" y="0" width="1368" height="872" />
+    <state x="153" y="157" key="new project wizard" timestamp="1593592778963">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="109" y="132" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1590448433632" />
+    <state x="153" y="157" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593592778963" />
   </component>
 </project>
