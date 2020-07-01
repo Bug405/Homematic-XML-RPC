@@ -70,7 +70,7 @@
         String port = "2010";               //port 2001 for Homematic / port 2010 for Homematic IP
 
         String device = "000AB16A0:4";      //actuator
-        String valueKey = "State";
+        String valueKey = "STATE";
         boolean value = true;
 
         String user = "user";
@@ -88,13 +88,13 @@
         String port = "2010";               //port 2001 for Homematic / port 2010 for Homematic IP
 
         String device = "000AB16A0:4";      //actuator
-        String valueKey = "State";
+        String valueKey = "STATE";
 
         String user = "user";
         String pwd = "12345678";
 
         //without authentication
-        //new HomematicClient().setValue(ip, port, device, valueKey, value);
+        //new HomematicClient().getValue(ip, port, device, valueKey);
 
         //with authentication
         return new HomematicClient().getValue(ip, port, device, valueKey, user, pwd);
