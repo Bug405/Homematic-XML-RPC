@@ -3,32 +3,19 @@ package xmlrpc;
 public class HomematicListener {
 
     /*
-    valuechangelistener
-
-    CCU send the new value of device channel
+    listener
      */
-    public static valueChangeListener valueChangelistener;
+    public static Listener listener;
 
-    public interface valueChangeListener{
+    public interface Listener {
+        //CCU send the new value of device channel
         void onValueChange(String device, String valueKey, Object value);
-    }
 
-    public void setValueChangeListener(valueChangeListener listener){
-        valueChangelistener = listener;
-    }
-
-    /*
-    devicelistener
-
-    CCU send after init a list of devices
-     */
-    public static deviceListener devicelistener;
-
-    public interface deviceListener{
+        //CCU send after init a list of devices
         void onNewDevice(Object[] object);
     }
 
-    public void setdeviceListener(deviceListener listener){
-        devicelistener = listener;
+    public void setListener(Listener listener){
+        HomematicListener.listener = listener;
     }
 }

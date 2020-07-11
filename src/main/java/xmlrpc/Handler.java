@@ -16,8 +16,8 @@ public class Handler {
 
     public Object[] newDevices(String i, Object[] obj) throws XmlRpcException {
 
-        if(HomematicListener.devicelistener != null){
-            HomematicListener.devicelistener.onNewDevice(obj);
+        if(HomematicListener.listener != null){
+            HomematicListener.listener.onNewDevice(obj);
         }
 
         return new Object[]{""};
@@ -55,8 +55,8 @@ public class Handler {
                     }
                 }
 
-                if (HomematicListener.valueChangelistener != null){
-                    HomematicListener.valueChangelistener.onValueChange(stateName, stateType, stateValue);
+                if (HomematicListener.listener != null){
+                    HomematicListener.listener.onValueChange(stateName, stateType, stateValue);
                 }
             } catch (NullPointerException var13) {
                 var13.printStackTrace();
