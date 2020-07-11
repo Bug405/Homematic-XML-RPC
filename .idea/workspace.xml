@@ -30,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/SmartHomeV5" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -50,11 +50,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="194" key="FileChooserDialogImpl" timestamp="1593592834125">
+    <state x="653" y="194" key="FileChooserDialogImpl" timestamp="1593630670663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="163" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1592438202962" />
-    <state x="653" y="194" key="FileChooserDialogImpl/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1593439538460" />
+    <state x="653" y="194" key="FileChooserDialogImpl/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1593630670663" />
     <state x="653" y="194" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593592834125" />
     <state x="782" y="436" key="Github.CreateGistDialog" timestamp="1593439744437">
       <screen x="0" y="0" width="1920" height="1040" />
