@@ -9,13 +9,12 @@
 # How to use:
 
 
-# implements HomematicListener.valueChangeListener, HomematicListener.deviceListener
+# implements HomematicListener.Listener
 
     public Main(){
         new HomematicServer(12345).start();
 
-        new HomematicListener().setValueChangeListener(this);
-        new HomematicListener().setdeviceListener(this);
+        new HomematicListener().setListener(this);
 
         sendinit();
     }
@@ -28,7 +27,7 @@
     */
     private void sendinit(){
         String ipccu = "192.168.0.11";         //IP CCu
-        String yourIP = "192.168.0.10";        //your own IP
+        String yourIP = "http://192.168.0.10:12345/";        //your own IP and port
 
         //Send int for Homematic IP port 2010
         new HomematicClient().init(ipccu, "2010", yourIP, "hmIPClient");
@@ -62,7 +61,7 @@
 
     @Override
     public void onValueChange(String device, String valueKey, Object value) {
-        System.out.println(device + "has a new state " + value);
+        System.out.println(device + " has a new " + valueKey + " " + value);
     }
 
     private void setValue(){
