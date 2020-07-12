@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="HomematicAPI:jar" />
+      <artifact name="Homematic-XML-RPC:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -33,7 +33,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
@@ -50,29 +50,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="194" key="FileChooserDialogImpl" timestamp="1593630670663">
+    <state x="653" y="194" key="FileChooserDialogImpl" timestamp="1594531032975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="163" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1592438202962" />
-    <state x="653" y="194" key="FileChooserDialogImpl/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1593630670663" />
+    <state x="653" y="194" key="FileChooserDialogImpl/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1594531032975" />
+    <state x="2573" y="168" key="FileChooserDialogImpl/0.0.1920.1040/1920.-26.1920.1040@1920.-26.1920.1040" timestamp="1594487892589" />
     <state x="653" y="194" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593592834125" />
     <state x="782" y="436" key="Github.CreateGistDialog" timestamp="1593439744437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="436" key="Github.CreateGistDialog/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1593439744437" />
-    <state x="261" y="27" key="SettingsEditor" timestamp="1593442155119">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2181" y="1" key="SettingsEditor" timestamp="1594532036107">
+      <screen x="1920" y="-26" width="1920" height="1040" />
     </state>
     <state x="186" y="23" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1590448355657" />
     <state x="261" y="27" key="SettingsEditor/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1593442155119" />
-    <state x="380" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1590447016109">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="380" y="260" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1590447016109" />
-    <state x="153" y="157" key="new project wizard" timestamp="1593592778963">
+    <state x="2181" y="1" key="SettingsEditor/0.0.1920.1040/1920.-26.1920.1040@1920.-26.1920.1040" timestamp="1594532036107" />
+    <state x="533" y="310" key="com.intellij.ide.util.TipDialog" timestamp="1594530989665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="380" y="260" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1590447016109" />
+    <state x="533" y="310" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-26.1920.1040@0.0.1920.1040" timestamp="1594530989665" />
+    <state x="2073" y="131" key="new project wizard" timestamp="1594487917003">
+      <screen x="1920" y="-26" width="1920" height="1040" />
+    </state>
     <state x="109" y="132" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1590448433632" />
+    <state x="2073" y="131" key="new project wizard/0.0.1920.1040/1920.-26.1920.1040@1920.-26.1920.1040" timestamp="1594487917003" />
     <state x="153" y="157" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593592778963" />
   </component>
 </project>
