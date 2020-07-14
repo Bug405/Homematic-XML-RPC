@@ -1,5 +1,4 @@
-# Homematic-XML-RPC
-# Homematic-XML-RPC API
+# Homematic-XML-RPC API for desktop and android (server and client) 
  
 # Some helpfull links:
  
@@ -11,6 +10,16 @@
 
 # implements HomematicListener.Listener
 
+    /*
+    if you use andoid add in Manifest
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+    ...
+    android:usesCleartextTraffic="true"
+     */
+     
     public Main(){
         new HomematicServer(12345).start();
 
@@ -70,7 +79,7 @@
     }
 
     /*
-    set new value 
+    set new value
     */
     private void setValue(){
         String ip = "192.168.0.11";         //IP CCu
