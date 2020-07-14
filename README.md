@@ -9,13 +9,12 @@
 # How to use:
 
 
-# implements HomematicListener.valueChangeListener, HomematicListener.deviceListener
+# implements HomematicListener.Listener
 
     public Main(){
         new HomematicServer(12345).start();
 
-        new HomematicListener().setValueChangeListener(this);
-        new HomematicListener().setdeviceListener(this);
+        new HomematicListener().setListener(this);
 
         sendinit();
     }
@@ -28,7 +27,7 @@
     */
     private void sendinit(){
         String ipccu = "192.168.0.11";         //IP CCu
-        String yourIP = "192.168.0.10";        //your own IP
+        String yourIP = "http://192.168.0.10:12345/";        //your own IP and port
 
         //Send int for Homematic IP port 2010
         new HomematicClient().init(ipccu, "2010", yourIP, "hmIPClient");
@@ -37,7 +36,9 @@
         new HomematicClient().init(ipccu, "2001", yourIP, "hmClient");
     }
 
-
+    /*
+    After success init, the CCU send all devices
+     */
     @Override
     public void onNewDevice(Object[] objects) {
         for (Object o: objects){
@@ -60,11 +61,17 @@
         }
     }
 
+    /*
+    If device change value the CCU send the new value
+     */
     @Override
     public void onValueChange(String device, String valueKey, Object value) {
-        System.out.println(device + "has a new state " + value);
+        System.out.println(device + " has a new " + valueKey + " " + value);
     }
 
+    /*
+    set new value 
+    */
     private void setValue(){
         String ip = "192.168.0.11";         //IP CCu
         String port = "2010";               //port 2001 for Homematic / port 2010 for Homematic IP
@@ -83,6 +90,9 @@
         new HomematicClient().setValue(ip, port, device, valueKey, value, user, pwd);
     }
 
+    /*
+    get value from device
+    */
     private Object getValue() {
         String ip = "192.168.0.11";         //IP CCu
         String port = "2010";               //port 2001 for Homematic / port 2010 for Homematic IP
